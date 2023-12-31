@@ -1,0 +1,102 @@
+  body {
+      margin: 0;
+      padding: 0;
+      
+  }
+.navbar{
+    border-bottom: 1px solid #ccc;
+}
+ 
+
+  .parent {
+      
+      margin: auto;
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 80px;
+      background-color: white;
+      padding-bottom: 50px;
+  }
+
+ .parent .onee {
+        /* float: left; */
+            width: 40%;
+            margin-bottom: 20px;
+            margin-left: 30px;
+            margin-right: 30px;
+            border-right: 1px solid #ccc;
+            padding-right: 60px;
+            padding-left: 10px;
+  }
+ .parent .two{
+    margin-top: -80px;
+    width: 50%;
+    /* padding-left: 30px; */
+}
+.parent .onee h1{
+    font-size: 40px;
+        margin-top: -10px;
+}
+.parent .onee p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+  .star {
+      color: rgb(164, 49, 49);
+  }
+
+.parent .two .submit {
+      background-color: #5e8f3d;
+      outline: none;
+      border: none;
+      margin-top: 10px;
+      padding: 10px 15px;
+      color: white;
+      width: 100px;
+      cursor: pointer;
+      transition: 0.3s all;
+  }
+.parent .two .submit:hover{
+    background-color: #777;
+   }
+  .label::placeholder {
+      font-size: 10px;
+  }
+
+  textarea {
+    width: 70%;
+        padding: 5px;
+        border-radius: 7px;
+        outline: none;
+        border: 1px solid #ccc;
+        height: 150px;
+        margin-top: 10px;
+  }
+.parent .two input{
+        width: 70%;
+            padding: 8px 5px;
+            border-radius: 7px;
+            outline: none;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+}
+.parent .two h3{
+    margin-top: 50px;
+}
+.vis{
+    display: flex;
+    align-items: center;
+}
+.vis i{
+    margin-right: 30px;
+    color: green;
+}
+.vis h6{
+    margin-top: -8px;
+}
+.klj i{
+    margin-right: 20px;
+}

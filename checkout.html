@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Shop</title>
+    <link rel="stylesheet" href="css/check.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <div class="allcheck">
+        <div class="check">
+            <div class="checkone">
+                    <h3>Delivery Info</h3>
+                    <form action="">
+                        <div class="c">
+                            <div class="i">
+                                <label for="first">First Name*</label><br>
+                                <input type="text" id="first">
+                            </div>
+                            <div class="u">
+                                <label for="last">last Name*</label><br>
+                                <input type="text" id="last">
+                            </div>
+                        </div>
+                        
+                        <label for="address">address*</label><br>
+                        <input type="text" id="address"><br>
+                        <div class="c">
+                            <div class="i">
+                                <label for="city">city*</label><br>
+                                <input type="text" id="city"><br>
+                            </div>
+                            <div class="u">
+                                <label for="state">state*</label><br>
+                                <input type="text" id="state"><br>
+                            </div>
+                        </div>
+                        
+                       
+                       <div class="c">
+                        <div class="i">
+                            <label for="zip">Zip*</label><br>
+                            <input type="text"><br>
+                        </div>
+                        <div class="u">
+                            <label for="num">Phone*</label><br>
+                            <input type="number">
+                        </div>
+                       </div>
+                    </form>
+            </div>
+            <div class="checktwo">
+                <div class="fir">
+                    <h3>Payment</h3>
+                    <div class="inter">
+                        <p>Credit Card</p>
+                        <span>Paypal</span>
+                    </div>
+                </div>
+                <div class="la">
+                       <form action="">
+                        <label for="card">Card Number*</label><br>
+                        <input type="text" id="card">
+                        <div class="e">
+                            <div class="r">
+                                <label for="ex">Expiry*</label><br>
+                                <input type="text">
+                            </div>
+                            <div class="p">
+                                <label for="cvc">CVC*</label><br>
+                                <input type="number" id="cvc">
+                            </div>
+                        </div>
+                        <input type="submit" value="Pay Now">
+                       </form>
+                </div>
+            </div>
+        </div>
+        <div class="totalorder">
+            <div class="head">
+                <p>Shopping Cart</p>
+            </div>
+            <div class="product-shopping">
+            <!-- <div class="rty">
+                         <div class="one">
+                                                <img src="image/hero-section-bg.jpg" alt="">
+                                                <div class="context">
+                                                    <h5>poster v3</h5>
+                                                    <p>2 x $14.99</p>
+                                                </div>
+                                            </div>
+                                            <i class="fa-regular fa-circle-xmark"></i> 
+                    </div> -->
+        
+            </div>
+           <div class="subtotal">
+            <p>total:</p>
+            <span id="total">0</span>
+            </div>
+        </div>
+    </div>
+    <div class="collthank">
+        <div class="thankyou">
+            <i class="fa-solid fa-check"></i>
+            <h1>Thank You</h1>
+            <button>OK</button>
+        </div>
+    </div>
+ 
+    <script src="java/check.js"></script>
+</body>
+</html>
